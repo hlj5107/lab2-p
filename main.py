@@ -2,6 +2,8 @@
 # Collaborator: Matthew Beatty mrb6319@psu.edu
 # Collaborator: Vincent Barnes vbj5182@psu.edu
 # Collaborator: Craig Pena cmp6428@psu.edu
+# Collaborator: Linsey Rich lxr5326@psu.edu
+# Collaborator: Sam Esler sqe5219@psu.edu
 # Section: 3
 # Breakout: 7
 
@@ -27,5 +29,5 @@ def GetLetterGrade(grade):
 def run():
   grade = float(input("Enter your CMPSC 131 grade: "))
   print(f"Your letter grade for CMPSC 131 is {GetLetterGrade(grade)}.")
-  if __name__ == "__main__":
+if __name__ == "__main__":
     run()
