@@ -24,8 +24,6 @@ def GetLetterGrade(grade):
     return "D"
   elif (grade < 60.0):
     return "F"
-  else:
-    return "A"
 def run():
   variable=float(input("Enter your CMPSC 131 grade: "))
   grade=GetLetterGrade(variable)
